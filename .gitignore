@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.db
+*.sqlite3
+
+# Vercel & Node
+.vercel/
+node_modules/
+
+# Arduino / ESP32 build artifacts
+firmware/build/
+*.bin
+*.elf
+*.map
+*.hex
+*.o
+*.d
+*.cache
+
+# Drivers / Archives
+*.cab
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.lnk
+.vscode/
+.idea/
